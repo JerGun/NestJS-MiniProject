@@ -1,7 +1,7 @@
 import * as mongoose from 'mongoose';
 
 export const UserSchema = new mongoose.Schema({
-    usernmae: String,
+    username: String,
     password: String,
     firstName: String,
     lastName: String,
@@ -12,7 +12,7 @@ export const UserSchema = new mongoose.Schema({
 
 export interface User extends mongoose.Document {
     modifiedAt: number;
-    usernmae: String,
+    username: String,
     password: String,
     firstName: String,
     lastName: String,
