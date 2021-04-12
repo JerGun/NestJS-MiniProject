@@ -8,8 +8,6 @@ export class UserDto {
 
 export class EditUserDto {
     readonly id: String;
-    readonly username: String;
-    readonly password: String;
     readonly firstName: String;
     readonly lastName: String;
     readonly birthDate: Date;

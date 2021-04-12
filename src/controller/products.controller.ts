@@ -1,5 +1,5 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
-import { Product } from 'src/schema/products.schema';
+import { Product } from '../schema/products.schema';
 import { EditProductDto, ProductDto } from '../dto/products.dto';
 import { ProductService } from '../service/products.service';
 
